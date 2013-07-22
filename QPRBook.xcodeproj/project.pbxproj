@@ -25,7 +25,6 @@
 		0BF8DB0C1406EB4000FB5D3A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8DB0A1406EB4000FB5D3A /* InfoViewController.m */; };
 		0BF8DB0D1406EB4000FB5D3A /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8DB0B1406EB4000FB5D3A /* InfoViewController.xib */; };
 		0BF8DB1B1408525D00FB5D3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8DB1A1408525D00FB5D3A /* Default.png */; };
-		0BF8DB1D140864CF00FB5D3A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8DB1C140864CF00FB5D3A /* Entitlements.plist */; };
 		0BF8DB24140B2A5100FB5D3A /* QPRLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8DB21140B2A5100FB5D3A /* QPRLogo.gif */; };
 		1D3623260D0F684500981E51 /* QPRBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* QPRBookAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -37,6 +36,7 @@
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		8695FC3F179D9B4E00A0960D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8695FC3E179D9B4E00A0960D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,6 @@
 		0BF8DB0A1406EB4000FB5D3A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		0BF8DB0B1406EB4000FB5D3A /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		0BF8DB1A1408525D00FB5D3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0BF8DB1C140864CF00FB5D3A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		0BF8DB21140B2A5100FB5D3A /* QPRLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = QPRLogo.gif; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* QPRBookAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRBookAppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +77,7 @@
 		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* QPRBook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRBook_Prefix.pch; sourceTree = "<group>"; };
+		8695FC3E179D9B4E00A0960D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* QPRBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QPRBook-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +149,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				0BF8DB1C140864CF00FB5D3A /* Entitlements.plist */,
+				8695FC3E179D9B4E00A0960D /* Default-568h@2x.png */,
 				0BF8DB081406EAF700FB5D3A /* InfoView */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
@@ -274,8 +274,8 @@
 				0B2CFF32137B7A1A00802505 /* pagecurlleft.png in Resources */,
 				0BF8DB0D1406EB4000FB5D3A /* InfoViewController.xib in Resources */,
 				0BF8DB1B1408525D00FB5D3A /* Default.png in Resources */,
-				0BF8DB1D140864CF00FB5D3A /* Entitlements.plist in Resources */,
 				0BF8DB24140B2A5100FB5D3A /* QPRLogo.gif in Resources */,
+				8695FC3F179D9B4E00A0960D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +322,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Teresa Van Dusen (WGG8VP57W3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPRBook_Prefix.pch;
 				INFOPLIST_FILE = "QPRBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = QPRBook;
+				PROVISIONING_PROFILE = "9C9C8E09-574E-4EFF-8830-2755011456C9";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -335,14 +339,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Teresa Van Dusen (WGG8VP57W3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPRBook_Prefix.pch;
 				INFOPLIST_FILE = "QPRBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = QPRBook;
+				PROVISIONING_PROFILE = "9C9C8E09-574E-4EFF-8830-2755011456C9";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -355,7 +362,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPRBook_Prefix.pch;
 				INFOPLIST_FILE = "QPRBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = QPRBook;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
